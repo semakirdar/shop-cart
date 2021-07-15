@@ -1,0 +1,134 @@
+body {
+  font-family: Arial;
+}
+
+a:hover {
+  color: #9b270f !important;
+}
+
+a {
+  transition: all 0.2s ease;
+}
+
+.container {
+  max-width: 1200px !important;
+}
+
+.nav-bar {
+  background-color: #ec5b3e;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar .nav-item a {
+  color: white;
+  text-decoration: none;
+}
+.nav-bar .nav-item .nav-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar .nav-item .nav-icons .icon-item {
+  margin-left: 20px;
+}
+
+.products a {
+  color: black;
+  text-decoration: none;
+}
+.products .product-item .product-title h6 {
+  max-height: 39px;
+  overflow: hidden;
+}
+.products .product-photo {
+  position: relative;
+}
+.products .product-photo img {
+  width: 100%;
+}
+.products .fav-icon {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.products .fav-icon i {
+  font-size: 20px;
+}
+
+.product-details .detail-image img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
+}
+.product-details .detail {
+  padding-left: 20px;
+}
+.product-details .detail .product-info {
+  padding: 20px;
+  border: 1px solid #c6c0c0;
+  margin-top: 50px;
+}
+
+.comments .comment-item {
+  border: 1px solid lightgrey;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.comments .comment-item .comment-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.comments .comment-item .comment-info .fav-icon i {
+  color: #ffcb2f;
+}
+.new-comment {
+  background-color: #ec5b3e;
+  padding: 30px;
+}
+.new-comment h6 {
+  color: white;
+}
+.new-comment form {
+  position: relative;
+}
+.new-comment form textarea {
+  width: 100%;
+}
+.new-comment form .action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+}
+.new-comment form .action select {
+  padding: 10px;
+}
+
+.muted-star {
+  color: #f1e8e8 !important;
+}
+
+.fav-icon .isFavorited {
+  color: #ec5b3e;
+}
+
+.basket .basket-item {
+  margin-bottom: 20px;
+}
+.basket .basket-item .basket-img {
+  text-align: right;
+}
+.basket .basket-item .basket-img img {
+  object-fit: cover;
+  object-position: top;
+  width: 140px;
+  height: 140px;
+}
+
+/*# sourceMappingURL=style.css.map */

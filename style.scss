@@ -1,0 +1,183 @@
+$lila: #ec5b3e;
+body {
+  font-family: Arial;
+}
+
+a:hover {
+  color: darken($lila, 25%) !important;
+}
+
+a {
+  transition: all .2s ease;
+}
+
+.container {
+  max-width: 1200px !important;
+}
+
+.nav-bar {
+
+  background-color: $lila;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .nav-item {
+    a {
+      color: white;
+
+      text-decoration: none;
+    }
+
+    .nav-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .icon-item {
+        margin-left: 20px;
+      }
+    }
+  }
+}
+
+.products {
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .product-item {
+    .product-title {
+      h6 {
+        max-height: 39px;
+        overflow: hidden;
+      }
+    }
+
+  }
+
+  .product-photo {
+    position: relative;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .fav-icon {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+
+    i {
+      font-size: 20px;
+    }
+  }
+}
+
+.product-details {
+  .detail-image {
+    img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+      object-position: top;
+    }
+  }
+
+  .detail {
+
+    padding-left: 20px;
+
+    .product-info {
+      padding: 20px;
+      border: 1px solid #c6c0c0;
+      margin-top: 50px;
+    }
+  }
+}
+
+.comments {
+  .comment-item {
+    border: 1px solid lightgrey;
+    padding: 20px;
+    margin-bottom: 20px;
+
+    .comment-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .fav-icon {
+        i {
+          color: #ffcb2f;
+        }
+      }
+    }
+
+    .description {
+
+    }
+  }
+}
+
+.new-comment {
+  background-color: $lila;
+  padding: 30px;
+
+  h6 {
+    color: white;
+  }
+
+  form {
+
+    position: relative;
+
+    textarea {
+      width: 100%;
+    }
+
+    .action {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 30px;
+      right: 30px;
+
+      select {
+        padding: 10px;
+      }
+
+    }
+
+  }
+}
+
+.muted-star {
+  color: #f1e8e8 !important;
+}
+
+.fav-icon {
+  .isFavorited {
+    color: $lila;
+  }
+
+}
+
+.basket {
+  .basket-item {
+    margin-bottom: 20px;
+    .basket-img {
+      text-align: right;
+      img {
+        object-fit: cover;
+        object-position: top;
+        width: 140px;
+        height: 140px;
+      }
+    }
+  }
+}

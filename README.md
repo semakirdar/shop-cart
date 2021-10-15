@@ -1,1 +1,1 @@
-# shop-card
+# shop-cart
